@@ -5,7 +5,7 @@ export function Profile() {
         <div className={styles.profileContainer}>
             <img src="https://github.com/AndrehW27.png" alt="André Willian" />
             <div>
-                <strong>André Willian TESTE</strong>
+                <strong>André Willian</strong>
                 <p>
                     <img src="icons/level.svg" alt="Imagem Level"/>
                     Level 1
