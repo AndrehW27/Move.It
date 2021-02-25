@@ -20,10 +20,18 @@
 }
 
 .profileContainer div p {
+    display: flex;
+    align-items: center;
+    
     font-size: 1.0rem;
     margin-top: 0.5rem;
 }
 
 .profileContainer div p img {
-    margin-right: 0.5rem;
+    margin:0 0.3rem;
+}
+
+.share{
+    width: 1rem;
+    margin-left: 0.5rem;
 }

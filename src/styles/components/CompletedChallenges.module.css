@@ -14,5 +14,15 @@
 }
 
 .completedChallengesContainer span:last-child{
+    display: flex;
     font-size: 1.5rem;
 }
+
+.completedChallengesContainer span:last-child img{    
+    width: 1.5rem;
+    margin-left: 0.5rem;
+}
+/* .share{
+    width: 1rem;
+    margin-left: 0.5rem;
+} */

@@ -21,7 +21,7 @@ export function ChallengeBox() {
         <div className={styles.challengeBoxContainer}>
             {activeChallenge ? (
                 <div className={styles.challengeActive}>
-                    <header>Ganhe {activeChallenge.amount}</header>
+                    <header>Ganhe {activeChallenge.amount} XP</header>
                     <main>
                         <img src={`icons/${activeChallenge.type}.svg`}/>
                         <strong>Novo Desafio</strong>
@@ -47,10 +47,11 @@ export function ChallengeBox() {
                 </div>
             ) : (
                     <div className={styles.challengeNotActive}>
+                        <img className={styles.medal} src="icons/medal.svg" alt="Imagem medalha" />
                         <strong>Finalize um ciclo para receber um desafio</strong>
                         <p>
                             <img src="icons/level-up.svg" alt="Level up" />
-                    Avance de level completando desafios
+                    Complete um desafio para subir de level
                 </p>
                     </div>
 
